@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+/*盒居中*/
+*{margin: 0; padding: 0;}
+.top{margin: 0 auto}
+.nav{margin: 0 auto}
+
+
+
+/*初始文本*/
+span,a,p,h1,h2,h3,h4,h5,h6,li,dt,dd{font-family: '微软雅黑'; color: #1f1f1f;}
+a{text-decoration:none;}
+li{list-style-type: none;}
+
+
+
+/*导航*/
+.nav-big{height: 56px; background-color: #31C37C;}
+.nav{width: 1200px; height: 56px;background-color: #31c37c}
+.nav-box1{float: left;}
+.nav-ul1{width: 546px; height: 56px; margin-left: 249px; float: left;}
+.nav-ul2{width: 168px; height: 56px; float: right;}
+
+.nav-ul1 li{float: left;width: 78px;border-radius: 0px 0px 6px 6px;}
+.nav-ul1 li dl dt{height: 56px; transition-duration: 0.15s; padding-left: 25px;}
+.nav-ul1 li dl dt a{font-size: 14px; line-height: 56px; color: #ffffff;}
+.nav-ul1 li dl dd{height: 44px;background-color: rgba(255, 255, 255, 1)/*透明度*/;width: 135px; transition-duration: 0.1s;}/*过渡*/
+.nav-ul1 li dl dd a{font-size: 14px;line-height: 48px; display:inline-block;padding:0px 0px 0px 25px;}
+.nav-ul1 li dl dd{box-shadow: 0px 4px 8px rgba(0,0,0,0.1);/*阴影*/;}
+
+.nav-ul2 li{float: left; list-style-type:none;width: 56px;border-radius: 0px 0px 6px 6px;}
+.nav-ul2 li dl dt{height: 56px; transition-duration: 0.15s;}
+.nav-ul2 li dl dd{height: 44px;background-color: rgba(255, 255, 255, 1)/*透明度*/;width: 135px; margin-left: -79px ; transition-duration: 0.1s;}
+.nav-ul2 li dl dd a{font-size: 14px;line-height: 48px; display:inline-block;padding:0px 0px 0px 25px;}
+.nav-ul2 li dl dd{box-shadow: 0px 4px 8px rgba(0,0,0,0.1)/*阴影*/;}
+
+#nav-dd1{height: 5px;background-color: #FFFFFF}
+#nav-dd2{height: 5px;background-color: #FFFFFF;border-radius: 0px 0px 5px 5px;overflow:hidden;/*圆角*/}
+
+dd{display: none;}/*隐藏dd*/
+
+.banner{position: absolute; padding-top: 56px; width: 1920px; left:50%; margin-left:-960px;}/*banner以nav-big(父对象)对齐*/
+.nav{position: relative;}
+
+
+
+/*导航-交互*/
+.nav-ul1 li:hover{background-color: #279c63;}/*经过li时保持颜色*/
+.nav-ul1 li dl dt:hover{background-color: #279c63;}
+.nav-ul1 li dl dd:hover{background-color: #31C37C;}
+.nav-ul1 li dl dd:hover a{color: #FFFFFF;}
+
+.nav-ul2 li:hover{background-color: #279c63;}/*经过li时保持颜色*/
+.nav-ul2 li dl dt:hover{background-color: #279c63;}
+.nav-ul2 li dl dd:hover{background-color: #31C37C;}
+.nav-ul2 li dl dd:hover a{color: #FFFFFF;}
+
+.nav-ul2 li dl dt:hover{background-color: #279c63;}
+li:hover dd{display: block;}/*碰到li显示dd*/

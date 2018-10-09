@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background-color: #f2f2f2}/*内容板块背景色*/
+
+.box-top{height: 20px}/*顶部空盒*/
+.main{width: 1200px; margin: 0 auto;}/*内容居中*/
+
+
+
+/*内容-左侧导航*/
+.nav-left-boxa{width: 940px; height: 414px; background-color:#FFFFFF; border-radius: 4px 4px 4px 4px; margin-bottom: 6px; margin: 0 auto;}
+.nav-left-boxa-1{padding: 40px 0px 0px 0px;text-align: center}
+.nav-left-span1{display: block; text-align: center;font-size: 18px; font-weight:bold;}
+.nav-left-span1 img{margin:18px 0px 0px 7px}
+.nav-left-span2{display: block; text-align: center;font-size: 12px; color: #969696; margin: 4px 0px 18px 0px;}
+.nav-left-span3{display: block; text-align: center;margin-bottom: 25px}
+.nav-left-span3 img{margin:0px 5px 0px 5px}
+.nav-left-span4{display: block; text-align:center; width: 260px; margin:0 auto;}
+.nav-left-span4 a{font-size:16px; color: #fff; background-color: #31c37c; float: left; line-height: 40px; width: 110px; border-radius: 20px; display: block; margin: 0px 10px 0px 10px; transition-duration: 0.2S;}
+.nav-left-boxb{width:240px; height:56px; background-color: #31c37c; border-radius: 4px 4px 4px 4px;font-size: 16px; color:#FFFFFF; display: block;text-align: center;line-height: 56px; margin-bottom: 6px;  ;transition-duration: 0.4S}
+.nav-left-boxc{width: 240px;height:56px;background-color: #FFFFFF; border-radius: 4px 4px 4px 4px;font-size: 16px; display: block;margin-bottom: 2px;}
+.nav-left-boxc span{color: #969696; border-left: solid 4px #fff;padding-left: 15px; display: block; line-height: 30px;transition-duration: 0.4S;float: left; margin-top: 13px}
+.nav-left-boxz{width: 940px; height: 88px; margin: 0 auto;background-color: #FFFFFF;margin-top: 6px}
+.nav-left-boxz a{display: block;width: 100px; text-align: center;float: left;height: 84px;border-bottom: solid 4px #fff;transition-duration: 0.3S}
+.nav-left-boxz-span1{font-size: 30px;font-weight: bold;display: block ;color: #969696;padding-top: 10px;transition-duration: 0.3S}
+.nav-left-boxz-span2{font-size: 16px;display: block; color: #969696;transition-duration: 0.3S}
+.nav-left-boxf{text-align: center}
+
+/*内容-左侧导航-交互*/
+
+.nav-left-boxz a:hover{ border-bottom: solid 4px #31c37c ;transition-duration: 0.1S}
+.nav-left-boxz a:hover span{color: #31c37c;transition-duration: 0.1S}
+.nav-left-span4 a:hover{background-color: #50cc90;transition-duration: 0.1S}
+
+
+
+/*内容-顶部导航*/
+.nav-top{width: 940px; height: 56px; float: right; background-color:#ffffff; border-radius: 4px 4px 4px 4px}
+.nav-top a{line-height: 56px; margin: 0px 25px 0px 25px; padding: 16px 0px 16px 0px; font-size: 16px; color: #969696; transition-duration: 0.4S}
+
+/*内容-顶部导航-交互*/
+.nav-top a:hover{color: #31c37c; border-bottom: solid 2px #31c37c; transition-duration: 0.1S}
+
+
+
+
+

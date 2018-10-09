@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*盒居中*/
+*{margin: 0; padding: 0;}
+.top{margin: 0 auto}
+.nav{margin: 0 auto}
+.main1{margin: 0 auto}
+.main2{margin: 0 auto}
+.bottom{margin: 0 auto}
+
+
+
+/*初始文本*/
+span,a,p,h1,h2,h3,h4,h5,h6,li,dt,dd{font-family: '微软雅黑'; color: #1f1f1f;}
+a{text-decoration:none;}
+li{list-style-type: none;}
+
+
+
+/*底部*/
+.bottomA{height: 150px; background-color: #31c37c;position:relative;}
+.bottomA-1{height: 30px; width: 1200px; position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;}
+.bottomA-1-1-1{background-image: url(手机_70%白.png); width: 20px; height: 30px; float: left; transition-duration: 0.2s;}
+.bottomA-1-span1{float: left; font-size: 16px; color:#FFFFFF; line-height: 30px; padding-left: 10px;color: #c2edd8;transition-duration: 0.2s;}
+.bottomA-1-span2{float: left; font-size: 16px; color:#FFFFFF; line-height: 30px; padding-left: 60px;color: #c2edd8;transition-duration: 0.2s;}
+.bottomA-1-img1{display: block; width: 30px;height: 30px; background-image:url(qq_70%白.png); float: right; margin-right: 60px;transition-duration: 0.2s;}
+.bottomA-1-img2{display: block; width: 30px;height: 30px; background-image: url(微信_70%白.png); float: right; transition-duration: 0.2s;}
+
+
+.bottomB{height: 30px; background-color: #279c63}
+.bottomB-1{height: 30px; width: 1200px; margin: 0 auto;}
+.bottomB-1-span1 a{font-size: 12px;line-height: 30px;color: #12482d; float: left;}
+.bottomB-1-span2 a{font-size: 12px;line-height: 30px;color: #12482d;}
+.bottomB-1-span2{font-size: 12px;line-height: 30px;color: #12482d; float: left; margin-left: 250px}
+.bottomB-1-span3{font-size: 12px;line-height: 30px;color: #12482d; float: right}
+
+.bottomA-1-img1{position:relative}
+.qq{width: 122px;height: 150px;background-image: url(牵星官方交流群.png);position: absolute;right: -46px;bottom:36px;transition-duration: 1s;}
+.bottomA-1-img2{position:relative}
+.weixing{width: 122px;height: 150px; background-image: url(牵星官方公众号.png);position: absolute;right: -46px;bottom:36px; transition-duration: 0.2s;}
+.qq{display: none}
+.weixing{display: none}
+
+
+/*底部-交互*/
+.bottomB-1-span1 a:hover{text-decoration:underline;}
+.bottomB-1-span2 a:hover{text-decoration:underline;}
+.bottomA-1-a:hover .bottomA-1-1-1{background-image: url(手机_白.png);transition-duration: 0.2s;}
+.bottomA-1-a:hover .bottomA-1-span1{color: #FFFFFF;transition-duration: 0.2s;}
+.bottomA-1-b:hover .bottomA-1-span2{color: #FFFFFF;transition-duration: 0.2s;}
+.bottomA-1-img1:hover{background-image:url(qq_白.png);transition-duration: 0.2s;}
+.bottomA-1-img2:hover{background-image:url(微信_白.png);transition-duration: 0.2s;}
+.bottomA-1-img1:hover .qq{display:block;}
+.bottomA-1-img2:hover .weixing{display:block;}
